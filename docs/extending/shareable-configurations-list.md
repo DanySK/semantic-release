@@ -18,4 +18,7 @@
   - Updates GitHub release with release-notes.
   - Bumps a version in package.json.
   - Publishes the new version to [NPM](https://npmjs.org).
-  
+- [semantic-release-preconfigured-conventional-commits](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits)
+  - Applies and pre-configures [semantic-release-conventional-commits](https://github.com/elliotttf/semantic-release-conventional-commits#readme)
+  - In addition to the angular behaviour, also `docs` and `perf` generate a **PATCH** release
+  - Configures the changelog to categorize the following types: `fix`, `feat`, `build`, `chore`, `ci`, `docs`, `style`, `refactor`, `perf`, `test`. 
